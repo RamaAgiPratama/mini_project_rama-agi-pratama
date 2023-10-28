@@ -1,0 +1,58 @@
+/* Dalam file CSS atau komponen React dengan modul CSS */
+.data-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 61%;
+  margin-left: 3rem;
+}
+
+.input__rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: rgba(46, 26, 12, 0.377) 0px 48px 100px 0px;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-family: var(--subtitle-font-name);
+  border: none;
+  width: 60%;
+  font-size: 1rem;
+  color: var(--heading-color);
+  outline: none;
+  margin-left: 5rem;
+}
+
+.rating__btn {
+  justify-content: space-between;
+  padding: 0.5rem 1.5rem !important;
+  background: var(--secondary-color) !important;
+  color: #fff !important;
+  font-size: 1.1rem !important;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+}
+
+.rating {
+  background: #bebebe;
+  padding: 10px;
+  margin-top: 3rem;
+}
+
+.rating h1 {
+  margin-left: 5rem;
+  font-family: var(--subtitle-font-name);
+}
+
+.delete-button {
+  color: #fff;
+}
