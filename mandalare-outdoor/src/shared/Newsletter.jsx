@@ -5,8 +5,9 @@ import { Container, Row, Col } from "reactstrap";
 import maleTourist from "../assets/images/male-tourist.png";
 
 const Newsletter = () => {
+  
   const openai = new OpenAI({
-    apiKey: "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",
+    apiKey:  import.meta.env.VITE_APP_APIKEY_OPENAI,
     dangerouslyAllowBrowser: true,
   });
 
